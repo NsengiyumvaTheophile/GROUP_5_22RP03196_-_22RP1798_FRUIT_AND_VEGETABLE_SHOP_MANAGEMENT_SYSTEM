@@ -12,10 +12,6 @@ return new class extends Migration
             $table->string('approval_status')->default('pending')->after('status');
         });
     }
-    """
-    
-    """
-
     public function down()
     {
         Schema::table('orders', function (Blueprint $table) {
