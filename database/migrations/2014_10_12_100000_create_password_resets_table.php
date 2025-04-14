@@ -13,6 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
+        //table columns
         Schema::create('password_resets', function (Blueprint $table) {
             $table->string('email')->primary();
             $table->string('token');
