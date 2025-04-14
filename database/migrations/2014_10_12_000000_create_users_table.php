@@ -12,7 +12,9 @@ return new class extends Migration
      * @return void
      */
     public function up()
+    
     {
+        // table columns
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
