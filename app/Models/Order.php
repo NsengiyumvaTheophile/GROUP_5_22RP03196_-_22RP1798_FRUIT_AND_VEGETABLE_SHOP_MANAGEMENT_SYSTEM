@@ -19,6 +19,8 @@ class Order extends Model
         'approval_status'
     ];
 
+    
+
     const STATUS_PENDING = 'pending';
     const STATUS_PROCESSING = 'processing';
     const STATUS_COMPLETED = 'completed';
