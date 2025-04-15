@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  Fruits and Vegetable Shop Management System
  -------------------------------------------
 
@@ -169,3 +170,6 @@ php artisan test
 
 
 
+=======
+# GROUP_5_22RP03196_-_22RP1798_FRUIT_AND_VEGETABLE_SHOP_MANAGEMENT_SYSTEM
+>>>>>>> fa69bbfac7257bdd6031cf9865c2af3e2879e322
