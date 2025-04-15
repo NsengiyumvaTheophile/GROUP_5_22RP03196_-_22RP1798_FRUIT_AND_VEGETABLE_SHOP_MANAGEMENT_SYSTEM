@@ -8,11 +8,12 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
+     *password resert
      * @return void
      */
     public function up()
     {
+        //table columns
         Schema::create('password_resets', function (Blueprint $table) {
             $table->string('email')->primary();
             $table->string('token');
